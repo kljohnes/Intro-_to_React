@@ -7,7 +7,7 @@ import Status from './components/Status'
 import StatusEditor from './components/StatusEditor'
 
 function App() {
-  const [currentStatus, setCurrentStatus] = useState("Feeling like it's time to Code")
+  const [currentStatus, setCurrentStatus] = useState("Feeling like it's time to Code!!")
   return (
     <div className="App">
       <Navbar />
